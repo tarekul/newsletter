@@ -1,0 +1,118 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55%;
+}
+
+.title {
+  color: steelblue;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.lineAbove {
+  border: 2px solid steelblue;
+}
+.lineBelow {
+  border: 0.5px solid steelblue;
+}
+
+.desc {
+  color: darkgray;
+  padding: 0.2rem;
+  margin: 0.5px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8rem;
+}
+
+#textbox {
+  height: 2.5rem;
+  width: 97%;
+  margin-bottom: 0.7rem;
+  text-indent: 1rem;
+  font-size: 1rem;
+}
+
+#textbox:focus {
+  outline: none;
+}
+.btnContainer {
+  background-color: steelblue;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.signup {
+  width: 95%;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
+  background-image: linear-gradient(skyblue, steelblue);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  text-shadow: 0 1px 0 black;
+  border: 0;
+  box-shadow: 0px 3px 5px 1px black;
+}
+
+span {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 12px;
+  }
+  .desc {
+    font-size: 0.6rem;
+  }
+  #labelCheck1 {
+    font-size: 0.6rem;
+  }
+  #labelCheck2 {
+    font-size: 0.6rem;
+  }
+  .signup {
+    font-size: 0.6rem;
+  }
+  #textbox {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .desc {
+    font-size: 1.1rem;
+  }
+  #labelCheck1 {
+    font-size: 1.1rem;
+  }
+  #labelCheck2 {
+    font-size: 1.1rem;
+  }
+  .signup {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .desc {
+    font-size: 1.2rem;
+  }
+  #labelCheck1 {
+    font-size: 1.2rem;
+  }
+  #labelCheck2 {
+    font-size: 1.2rem;
+  }
+  .signup {
+    font-size: 1.2rem;
+  }
+}
