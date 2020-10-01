@@ -10,13 +10,9 @@
   color: steelblue;
   text-transform: uppercase;
   text-align: center;
-}
-
-.lineAbove {
-  border: 2px solid steelblue;
-}
-.lineBelow {
-  border: 0.5px solid steelblue;
+  border-top: 3px solid steelblue;
+  border-bottom: 1px solid steelblue;
+  padding: 15px;
 }
 
 .desc {
@@ -67,20 +63,12 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
-  .title {
-    font-size: 12px;
-  }
-  .desc {
-    font-size: 0.6rem;
-  }
-  #labelCheck1 {
-    font-size: 0.6rem;
-  }
-  #labelCheck2 {
-    font-size: 0.6rem;
-  }
+  .title,
+  .desc,
+  #labelCheck1,
+  #labelCheck2,
   .signup {
-    font-size: 0.6rem;
+    font-size: 12px;
   }
   #textbox {
     font-size: 0.8rem;
@@ -88,30 +76,18 @@ span {
 }
 
 @media only screen and (min-width: 601px) {
-  .desc {
-    font-size: 1.1rem;
-  }
-  #labelCheck1 {
-    font-size: 1.1rem;
-  }
-  #labelCheck2 {
-    font-size: 1.1rem;
-  }
+  .desc,
+  #labelCheck1,
+  #labelCheck2,
   .signup {
     font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .desc {
-    font-size: 1.2rem;
-  }
-  #labelCheck1 {
-    font-size: 1.2rem;
-  }
-  #labelCheck2 {
-    font-size: 1.2rem;
-  }
+  .desc,
+  #labelCheck1,
+  #labelCheck2,
   .signup {
     font-size: 1.2rem;
   }
